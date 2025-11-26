@@ -463,7 +463,7 @@ async def done_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         # Update stats
         stats['completed_deals'] += 1
-        stats['total_released'] += deal['release_amount']
+        stats['total_released'] = deal['release_amount']
         save_stats()
         
         completion_message = f"""
