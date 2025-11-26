@@ -470,7 +470,7 @@ async def done_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 ✅ **Deal Completed**
 🆔 Trade ID: {trade_id}
 📤 Released: ${deal['release_amount']:.2f}
-ℹ️ Total Released: ${stats['total_released']:.2f}
+ℹ️ Total Released: ${deal['release_amount']:.2f}
 
 Buyer: {deal['buyer']}
 Seller: {deal['seller']}
