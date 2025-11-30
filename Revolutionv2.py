@@ -17,9 +17,9 @@ logger = logging.getLogger(__name__)
 API_ID = 0  # Get from https://my.telegram.org
 API_HASH = ""  # Get from https://my.telegram.org
 PHONE_NUMBER = ""  # Your phone number
-BOT_USERNAME = ""  # Main bot username (e.g., @yourbotname)
-BOT_TOKEN = ""  # Main bot token for sending invoices
-ADMIN_USER_ID = 0  # Set your admin Telegram user ID here
+BOT_USERNAME = "Giveawaysedbot"  # Main bot username (e.g., @yourbotname)
+BOT_TOKEN = "8251256866:AAFMgG9Csq-7avh7IaTJeK61G3CN3c21v1Y"  # Main bot token for sending invoices
+ADMIN_USER_ID = 5709159932  # Set your admin Telegram user ID here
 
 # ========== DATA STORAGE ==========
 allowed_groups = set()
