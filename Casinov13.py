@@ -1507,6 +1507,9 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
             
     except Exception as e:
+        print(f"Error in callback: {e}")
+    return
+    
 async def handle_game_emoji(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     
