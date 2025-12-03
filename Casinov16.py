@@ -62,7 +62,7 @@ username_to_id = {}
 
 STARS_TO_USD = 0.0179
 STARS_TO_TON = 0.01201014
-MIN_WITHDRAWAL = 100
+MIN_WITHDRAWAL = 200
 BONUS_AMOUNT = 20
 
 GAME_TYPES = {
@@ -776,7 +776,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"💵 Balance: ${balance_usd:.2f}\n"
         f"👑 Game turnover: ${turnover:.2f}\n\n"
         f"🌐 <b>About us</b>\n"
-        f"<a href='https://t.me/Iibrate'>Channel</a> | <a href='https://t.me/Iibratechat'>Chat</a> | <a href='https://t.me/Iibratesupport'>Support</a>"
+        f"<a href='https://t.me/Iibrate'>Channel</a> | <a href='https://t.me/Iibrates'>Chat</a> | <a href='https://t.me/Iibratesupport'>Support</a>"
     )
     
     keyboard = [
