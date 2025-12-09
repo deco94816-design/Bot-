@@ -31,8 +31,8 @@ from telegram.ext import (
 # ============================================
 # CONFIGURATION - EDIT THESE VALUES
 # ============================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-ADMIN_IDS = [123456789]  # Replace with your Telegram user ID(s)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8005843558:AAF9Lr7wGjhLb9Eubz2hluYVaNV9orpQlj0")
+ADMIN_IDS = [5709159932]  # Replace with your Telegram user ID(s)
 
 PAYMENT_AMOUNT = 1   # User pays 1 star
 GIFT_AMOUNT = 100    # Bot gifts 100 stars
